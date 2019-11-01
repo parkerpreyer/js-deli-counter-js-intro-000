@@ -1,5 +1,11 @@
 function takeANumber(line, name) {
   line.push(name);
   let placeInLine = line.length;
-  return `Welcome, ${name}. You are number ${placeInLine} in line.`;
+  return `Welcome, ${name}. You are number ${placeInLine}.`;
+};
+
+function nowServing(line) {
+  if (line.length > 0) {
+    return line.shift();
+  }
 };
