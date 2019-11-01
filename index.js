@@ -18,7 +18,7 @@ function currentLine(line) {
   if (line.length > 0) {
     for (var i = 0; i < line.length; i++) {
       let person = line[i];
-      currentLineOrder += `${currentLineOrder} ${i + 1}. ${person},`
+      currentLineOrder += `${i + 1}. ${person},`
     };
     return currentLineOrder;
   } else {
