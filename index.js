@@ -20,7 +20,7 @@ function currentLine(line) {
       let person = line[i];
       `currentLineOrder ${i + 1}. ${person},`
     };
-  }; else {
+  } else {
     return 'The line is currently empty';
   };
   return currentLineOrder;
