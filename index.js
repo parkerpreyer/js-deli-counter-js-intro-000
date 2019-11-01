@@ -21,7 +21,7 @@ function currentLine(line) {
       if (i === line.length - 1) {
         currentLineOrder += `${i + 1}. ${person}`
       } else {
-      currentLineOrder += `${i + 1}. ${person},`
+      currentLineOrder += `${i + 1}. ${person}, `
         };
     };
     return currentLineOrder;
