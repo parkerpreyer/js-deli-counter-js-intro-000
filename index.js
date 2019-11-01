@@ -17,7 +17,11 @@ function currentLine(line) {
   let currentLineOrder = 'The line is currently: ';
   if (line.length > 0) {
     for (var i = 0; i < line.length; i++) {
-
+      let person = line[i];
+      `currentLineOrder ${i + 1}. ${person},`
     };
+  }; else {
+    return 'The line is currently empty';
   };
+  return currentLineOrder;
 };
