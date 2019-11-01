@@ -22,6 +22,6 @@ function currentLine(line) {
     };
     return currentLineOrder;
   } else {
-    return 'The line is currently empty';
+    return 'The line is currently empty'.;
   };
 };
